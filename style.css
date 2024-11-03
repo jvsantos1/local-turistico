@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  font-family: "Open Sans", serif;
+}
+body{
+  margin: 1280;
+  padding: 3279;
+  margin: 0 20%;
+}
+main div img {
+  height: 375px;
+  object-fit: cover; 
+  margin-top: 44px;
+}
+
+#page{
+  padding: 65px;
+  margin: auto;
+}
+
+.headline{
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold;
+  color: #E1624F;
+  text-transform: uppercase;
+}
+
+h1{
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+#page img{
+  border-radius: 28px;
+  width: 100%;
+}
+
+.subtitle{
+  font-size: 16px;
+  line-height: 22px;
+  font-style: italic;
+  text-align: center;
+  color: #333;
+  margin-top: 24px;
+}
+
+.divider{
+  width: 100%;
+  height: 1px;
+  margin: 40px 0;
+  background-color: #d9d9d9;
+}
+
+#contentList .divider{
+  margin-bottom: 64px;
+}
+
+h2{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+p{
+  font-size: 16px;
+  font-weight: regular;
+}
+
+#titleList h2 + p{
+  margin-bottom: 64px;
+}
+
+h3{
+  font-size: 28px;
+  font-weight: bold;
+  margin: 20px 0 5px 5px;
+}
+
+#list p{
+  margin-bottom: 20px;
+}
+
+ul{
+  margin: 5px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.história li:nth-child(1){
+  color:#0C51A7
+}
+
+ul li:nth-child(1){
+  color:#591B98
+}
+
+ul li:nth-child(2){
+  color:#E5245E
+}
+
+ul li:nth-child(3){
+  color:#E95E10
+}
+
+footer{
+  text-align: center;
+  padding-bottom: 48px;
+  padding-top: 65px;
+}
+
+footer img {
+  vertical-align: middle;
+}
